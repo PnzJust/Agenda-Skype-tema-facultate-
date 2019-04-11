@@ -99,6 +99,9 @@ int main()
   p=&t;
   agenda.adaugare_final(p);
 
+
+//----------Ne-am oprit din a baga variante random stupide------
+
 //---------De aici e cautarea in agenda--------------------------
 
   	char optiune;
@@ -114,8 +117,6 @@ int main()
 	else
 	std::cout<<"NU exista abonatul "<<nume_cautat<<'\n';
 }
-
-//----------Ne-am oprit din a baga variante random stupide------
   return 0;
 }
 std::istream& operator >>(std::istream& in,persoana& X)
